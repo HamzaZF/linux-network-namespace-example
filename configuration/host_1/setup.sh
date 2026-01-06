@@ -3,19 +3,19 @@ set -e
 
 # --- Configuration ---
 BRIDGE_NAME="br0"
-SUBNET_CIDR="10.0.0.0/24"
-BRIDGE_IP_CIDR="10.0.0.1/24"
-BRIDGE_IP="10.0.0.1"
+SUBNET_CIDR="10.0.1.0/24"
+BRIDGE_IP_CIDR="10.0.1.1/24"
+BRIDGE_IP="10.0.1.1"
 
 # Namespace 1 settings
 NS1_NAME="ns1"
-NS1_IP="10.0.0.2/24"
+NS1_IP="10.0.1.2/24"
 VETH1_HOST="veth10"
 VETH1_NS="veth11"
 
 # Namespace 2 settings
 NS2_NAME="ns2"
-NS2_IP="10.0.0.3/24"
+NS2_IP="10.0.1.3/24"
 VETH2_HOST="veth20"
 VETH2_NS="veth21"
 

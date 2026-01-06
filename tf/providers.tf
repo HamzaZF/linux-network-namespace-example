@@ -7,7 +7,7 @@ terraform {
     }
 
     http = {
-        source = "hashicorp/http"
+      source = "hashicorp/http"
     }
   }
 }

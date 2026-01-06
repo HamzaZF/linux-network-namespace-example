@@ -13,7 +13,15 @@ variable "username_host_0" {
   type        = string
 }
 
+variable "password_host_0" {
+  description = "The password for host 0"
+}
+
 variable "username_host_1" {
   description = "The username of the host 1"
   type        = string
+}
+
+variable "password_host_1" {
+  description = "The password for host 1"
 }
